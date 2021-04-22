@@ -9,6 +9,10 @@ DOMAIN-SUFFIX,digidentity.uk
 DOMAIN-SUFFIX,digidentity.eu
 USER-AGENT,CreditKarmaInternational*
 DOMAIN-SUFFIX,creditkarma.co.uk
+DOMAIN-SUFFIX,equifax.co.uk
+DOMAIN-SUFFIX,moneysavingexpert.com
+DOMAIN-SUFFIX,transunionstatreport.co.uk
+DOMAIN-SUFFIX,moneysupermarket.com
 DOMAIN-SUFFIX,gov.uk
 USER-AGENT,Aqua*
 DOMAIN-SUFFIX,aquacard.co.uk
