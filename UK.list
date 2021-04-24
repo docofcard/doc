@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,moneysavingexpert.com
 DOMAIN-SUFFIX,transunionstatreport.co.uk
 DOMAIN-SUFFIX,moneysupermarket.com
 DOMAIN-SUFFIX,gov.uk
+USER-AGENT,HSBC%20UK*
+DOMAIN-SUFFIX,hsbc.co.uk
 USER-AGENT,Aqua*
 DOMAIN-SUFFIX,aquacard.co.uk
 USER-AGENT,N26*
