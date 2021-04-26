@@ -46,18 +46,6 @@ let HKCarrier = [
 let Direct = "DIRECT";
 let Reject = "REJECT";
 
-//function setSelectGroupPolicyUK(ProxyMode) {
-//    ABOUT_IP += $network.v4.primaryAddress;
-//    if($surge.setSelectGroupPolicy('🇬🇧ProxyUK', ProxyMode.toLowerCase()))
-//        $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
-//}
-
-function setSelectGroupPolicyHK(ProxyMode) {
-    ABOUT_IP += $network.v4.primaryAddress;
-    if($surge.setSelectGroupPolicy(ProxyMode.toLowerCase()))
-        $notification.post(TITLE, NETWORK, Proxy_HK + mode + '\n' + ABOUT_IP);
-}
-
 //根据wifi-ssid切换规则;
 let NETWORK = "";
 if ($network.v4.primaryInterface == "en0") {
