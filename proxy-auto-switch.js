@@ -46,8 +46,6 @@ let HKCarrier = [
 let Direct = "DIRECT";
 let Reject = "REJECT";
 
-//$surge.setSelectGroupPolicy(groupName<String>, policyName<String>)
-
 //function setSelectGroupPolicyUK(ProxyMode) {
 //    ABOUT_IP += $network.v4.primaryAddress;
 //    if($surge.setSelectGroupPolicy('🇬🇧ProxyUK', ProxyMode.toLowerCase()))
