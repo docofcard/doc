@@ -51,30 +51,30 @@ let NETWORK = "";
 if ($network.v4.primaryInterface == "en0") {
     NETWORK += SUBTITLE_WIFI + $network.wifi.ssid;
     if (UKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Direct);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Direct);
             ABOUT_IP += $network.v4.primaryAddress;
             $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
+            $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     } else if (HKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Direct);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Direct);
     } else {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     }
 
 //根据mcc-mnc切换规则;
 }else if ($network.v4.primaryInterface == "pdp_ip0") {
     NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
     if (UKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Direct);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Direct);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     } else if (HKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Direct);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Direct);
     } else {
-        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
-        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
+        $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     }
 
 
