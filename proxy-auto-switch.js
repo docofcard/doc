@@ -7,11 +7,11 @@
 //TwitchSwitch = type=event,event-name=network-changed,script-path=proxy-auto-switch.js
 
 //通知（不喜欢英文自己改中文）.
-let TITLE = '代理模式!';
+let TITLE = '自动切换规则!';
 let SUBTITLE_CELLULAR = '蜂窝网络: ';
 let SUBTITLE_WIFI = 'Wi-Fi: ';
-let Proxy_UK = 'ProxyUK代理模式: ';
-let Proxy_HK = 'ProxyHK代理模式: ';
+let Proxy_UK = 'ProxyUK: ';
+let Proxy_HK = 'ProxyHK: ';
 let ABOUT_IP = 'IP: ';
 //let CHINA_MOBILE = "中国移动";
 //let CHINA_UNICOM = "中国联通";
@@ -50,14 +50,15 @@ let Reject = "REJECT";
 let NETWORK = "";
 if ($network.v4.primaryInterface == "en0") {
     NETWORK += SUBTITLE_WIFI + $network.wifi.ssid;
+    ABOUT_IP += $network.v4.primaryAddress;
     if (UKWiFi.indexOf($network.wifi.ssid) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Direct);
-            ABOUT_IP += $network.v4.primaryAddress;
             $notification.post(TITLE, NETWORK, Proxy_UK + Direct + '\n' + ABOUT_IP);
-            $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
+        $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     } else if (HKWiFi.indexOf($network.wifi.ssid) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Direct);
+            $notification.post(TITLE, NETWORK, Proxy_HK + Direct + '\n' + ABOUT_IP);
     } else {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
@@ -68,10 +69,12 @@ if ($network.v4.primaryInterface == "en0") {
     NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
     if (UKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Direct);
+            $notification.post(TITLE, NETWORK, Proxy_UK + Direct + '\n' + ABOUT_IP);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     } else if (HKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Direct);
+            $notification.post(TITLE, NETWORK, Proxy_HK + Direct + '\n' + ABOUT_IP);
     } else {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
