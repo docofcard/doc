@@ -48,7 +48,7 @@ let Reject = "Reject";
 
 function setSelectGroupPolicyUK(ProxyMode) {
     ABOUT_IP += $network.v4.primaryAddress;
-    if($surge.setSelectGroupPolicy(ProxyMode.toLowerCase()))
+    if($surge.setSelectGroupPolicy('🇬🇧ProxyUK', ProxyMode.toLowerCase()))
         $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
 }
 
@@ -63,28 +63,28 @@ let NETWORK = "";
 if ($network.v4.primaryInterface == "en0") {
     NETWORK += SUBTITLE_WIFI + $network.wifi.ssid;
     if (UKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK(Direct);
-        setSelectGroupPolicyHK(Reject);
+        setSelectGroupPolicyUK(DIRECT);
+        setSelectGroupPolicyHK(REJECT);
     } else if (HKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK(Reject);
-        setSelectGroupPolicyHK(Direct);
+        setSelectGroupPolicyUK(REJECT);
+        setSelectGroupPolicyHK(DIRECT);
     } else {
-        setSelectGroupPolicyUK(Reject);
-        setSelectGroupPolicyHK(Reject);
+        setSelectGroupPolicyUK(REJECT);
+        setSelectGroupPolicyHK(REJECT);
     }
 
 //根据mcc-mnc切换规则;
 }else if ($network.v4.primaryInterface == "pdp_ip0") {
     NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
     if (UKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK(Direct);
-        setSelectGroupPolicyHK(Reject);
+        setSelectGroupPolicyUK(DIRECT);
+        setSelectGroupPolicyHK(REJECT);
     } else if (HKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK(Reject);
-        setSelectGroupPolicyHK(Direct);
+        setSelectGroupPolicyUK(REJECT);
+        setSelectGroupPolicyHK(DIRECT);
     } else {
-        setSelectGroupPolicyUK(Reject);
-        setSelectGroupPolicyHK(Reject);
+        setSelectGroupPolicyUK(REJECT);
+        setSelectGroupPolicyHK(REJECT);
     }
 
 
