@@ -62,6 +62,7 @@ if ($network.v4.primaryInterface == "en0") {
     } else {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
+            $notification.post(TITLE, NETWORK, Proxy_UK + Reject + '\n' + Proxy_HK + Reject + '\n' + ABOUT_IP);
     }
 
 //根据mcc-mnc切换规则;
@@ -78,6 +79,7 @@ if ($network.v4.primaryInterface == "en0") {
     } else {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
+            $notification.post(TITLE, NETWORK, Proxy_UK + Reject + '\n' + Proxy_HK + Reject + '\n' + ABOUT_IP);
     }
 
 
