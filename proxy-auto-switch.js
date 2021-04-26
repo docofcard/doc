@@ -53,7 +53,7 @@ if ($network.v4.primaryInterface == "en0") {
     if (UKWiFi.indexOf($network.wifi.ssid) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Direct);
             ABOUT_IP += $network.v4.primaryAddress;
-            $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
+            $notification.post(TITLE, NETWORK, Proxy_UK + Direct + '\n' + ABOUT_IP);
             $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
     } else if (HKWiFi.indexOf($network.wifi.ssid) != -1) {
         $surge.setSelectGroupPolicy('🇬🇧ProxyUK',Reject);
