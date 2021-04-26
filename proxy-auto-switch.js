@@ -3,20 +3,18 @@
 //telegram: @docofcard
 
 //根据SSID和MCC-MNC自动切换ProxyGroup
-//使用方法:请根据自己的需求改动脚本内容，将脚本放到surge文件夹内,然后在文本模式下将代码复制到[script]下
+//请根据自己的需求和配置改动脚本内容
+//将脚本放到surge文件夹内,然后在文本模式下将代码复制到[script]下
 //TwitchSwitch = type=event,event-name=network-changed,script-path=proxy-auto-switch.js
 
-//通知（不喜欢英文自己改中文）.
+//通知（可修改为你自己的文字）
 let TITLE = '自动切换规则!';
 let SUBTITLE_CELLULAR = '蜂窝网络: ';
 let SUBTITLE_WIFI = 'Wi-Fi: ';
 let Proxy_UK = 'ProxyUK: ';
 let Proxy_HK = 'ProxyHK: ';
 let ABOUT_IP = 'IP: ';
-//let CHINA_MOBILE = "中国移动";
-//let CHINA_UNICOM = "中国联通";
-//let CHINA_TELECOM = "中国电信";
-//let CHINA_TIETONG = "中国铁通";
+
 
 //ssid 连接特定WiFi时切换规则（改为你自己的SSID）
 let UKWiFi = [
@@ -42,7 +40,6 @@ let HKCarrier = [
             "454-14"
     ];
 
-//根据wifi-ssid和mnn-mnc来切换规则；
 let Direct = "DIRECT";
 let Reject = "REJECT";
 
