@@ -19,7 +19,6 @@ let ABOUT_IP = 'IP: ';
 //ssid 连接特定WiFi时切换规则（改为你自己的SSID）
 let UKWiFi = [
             "UK_ssid1",
-            "njbb",
             "UK_ssid2"
     ];
 let HKWiFi = [
