@@ -7,7 +7,7 @@
 //将脚本放到surge文件夹内,然后在文本模式下将代码复制到[script]下
 //TwitchSwitch = type=event,event-name=network-changed,script-path=proxy-auto-switch.js
 
-//通知（可修改为你自己的文字）
+//通知（可按照需要自己修改）
 let TITLE = '自动切换规则!';
 let SUBTITLE_CELLULAR = '蜂窝网络: ';
 let SUBTITLE_WIFI = 'Wi-Fi: ';
@@ -40,6 +40,7 @@ let HKCarrier = [
             "454-14"
     ];
 
+//自动切换规则，“”中的规则在需要切换的ProxyGroup中必须要有;
 let Direct = "DIRECT";
 let Reject = "REJECT";
 
@@ -78,15 +79,6 @@ if ($network.v4.primaryInterface == "en0") {
         $surge.setSelectGroupPolicy('🇭🇰ProxyHK', Reject);
             $notification.post(TITLE, NETWORK, Proxy_UK + Reject + '\n' + Proxy_HK + Reject + '\n' + ABOUT_IP);
     }
-
-
-//    if (CARRIER == "460-00" || CARRIER == "460-02" || CARRIER == "460-07") SUBTITLE_CELLULAR += CHINA_MOBILE;
-//    else if (CARRIER == "460-01" || CARRIER == "460-06" || CARRIER == "460-09") SUBTITLE_CELLULAR += CHINA_UNICOM;
-//    else if (CARRIER == "460-03" || CARRIER == "460-05" || CARRIER == "460-11") SUBTITLE_CELLULAR += CHINA_TELECOM;
-//    else if (CARRIER == "460-20") SUBTITLE_CELLULAR += CHINA_TIETONG;
-//    NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
-//    changeOutboundMode(Cellular);
-
 
 }
 
