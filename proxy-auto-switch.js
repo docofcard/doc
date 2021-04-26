@@ -43,14 +43,16 @@ let HKCarrier = [
     ];
 
 //根据wifi-ssid和mnn-mnc来切换规则；
-let Direct = "Direct";
-let Reject = "Reject";
+let Direct = "DIRECT";
+let Reject = "REJECT";
 
-function setSelectGroupPolicyUK(ProxyMode) {
-    ABOUT_IP += $network.v4.primaryAddress;
-    if($surge.setSelectGroupPolicy('🇬🇧ProxyUK', ProxyMode.toLowerCase()))
-        $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
-}
+$surge.setSelectGroupPolicy(groupName<String>, policyName<String>)
+
+//function setSelectGroupPolicyUK(ProxyMode) {
+//    ABOUT_IP += $network.v4.primaryAddress;
+//    if($surge.setSelectGroupPolicy('🇬🇧ProxyUK', ProxyMode.toLowerCase()))
+//        $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
+//}
 
 function setSelectGroupPolicyHK(ProxyMode) {
     ABOUT_IP += $network.v4.primaryAddress;
@@ -63,28 +65,30 @@ let NETWORK = "";
 if ($network.v4.primaryInterface == "en0") {
     NETWORK += SUBTITLE_WIFI + $network.wifi.ssid;
     if (UKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK(DIRECT);
-        setSelectGroupPolicyHK(REJECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Direct);
+            ABOUT_IP += $network.v4.primaryAddress;
+            $notification.post(TITLE, NETWORK, Proxy_UK + mode + '\n' + ABOUT_IP);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
     } else if (HKWiFi.indexOf($network.wifi.ssid) != -1) {
-        setSelectGroupPolicyUK(REJECT);
-        setSelectGroupPolicyHK(DIRECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Direct);
     } else {
-        setSelectGroupPolicyUK(REJECT);
-        setSelectGroupPolicyHK(REJECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
     }
 
 //根据mcc-mnc切换规则;
 }else if ($network.v4.primaryInterface == "pdp_ip0") {
     NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
     if (UKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK(DIRECT);
-        setSelectGroupPolicyHK(REJECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Direct);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
     } else if (HKCarrier.indexOf($network['cellular-data'].carrier) != -1) {
-        setSelectGroupPolicyUK(REJECT);
-        setSelectGroupPolicyHK(DIRECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Direct);
     } else {
-        setSelectGroupPolicyUK(REJECT);
-        setSelectGroupPolicyHK(REJECT);
+        setSelectGroupPolicyUK('🇬🇧ProxyUK',Reject);
+        setSelectGroupPolicyHK('🇭🇰ProxyHK', Reject);
     }
 
 
