@@ -1,4 +1,3 @@
-#UK
 USER-AGENT,ClearScore*
 DOMAIN-SUFFIX,clearscore.com
 USER-AGENT,Experian*
@@ -33,7 +32,6 @@ USER-AGENT,Barclaycard*
 DOMAIN-SUFFIX,barclaycard.co.uk
 USER-AGENT,CapitalOne*
 DOMAIN-SUFFIX,capitalone.co.uk
-#DE
 DOMAIN-SUFFIX,schufa.de
 DOMAIN-SUFFIX,meineschufa.de
 USER-AGENT,N26*
