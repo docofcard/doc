@@ -1,125 +1,144 @@
-  # UK
-  
-  # (Credit card)
-  # > Credit bureaus
-  USER-AGENT,ClearScore*
-  DOMAIN-SUFFIX,clearscore.com
-  USER-AGENT,CreditKarmaInternational*
-  DOMAIN-SUFFIX,creditkarma.co.uk
-  DOMAIN-SUFFIX,equifax.co.uk
-  USER-AGENT,Experian*
-  DOMAIN-SUFFIX,experian.co.uk
-  DOMAIN-SUFFIX,moneysavingexpert.com
-  DOMAIN-SUFFIX,moneysupermarket.com
-  DOMAIN-SUFFIX,totallymoney.com
-  DOMAIN-SUFFIX,transunionstatreport.co.uk
-  # > Indentity
-  USER-AGENT,Digidentity*
-  DOMAIN-SUFFIX,digidentity.co.uk
-  DOMAIN-SUFFIX,digidentity.com
-  DOMAIN-SUFFIX,digidentity.uk
-  DOMAIN-SUFFIX,digidentity.eu
-  DOMAIN-SUFFIX,gov.uk
-  DOMAIN-SUFFIX,co.uk
-  # > Aqua
-  USER-AGENT,NewDayAqua*
-  DOMAIN-SUFFIX,aquacard.co.uk
-  # > Barclay
-  USER-AGENT,Barclaycard*
-  DOMAIN-SUFFIX,apply-mobile.barclaycard
-  DOMAIN-SUFFIX,barclays.co.uk
-  DOMAIN-SUFFIX,barclays.mobi
-  DOMAIN-SUFFIX,barclays.com
-  DOMAIN-SUFFIX,home.barclays
-  # > Capital One
-  USER-AGENT,CapitalOne*
-  DOMAIN-SUFFIX,capitalone.co.uk
-  # > Halifax
-  # USER-AGENT,Halifax*
-  DOMAIN-SUFFIX,halifax.co.uk
-  # > HSBC UK
-  USER-AGENT,HSBC%20UK*
-  DOMAIN-SUFFIX,hsbc.co.uk
-  # > HyperJar
-  # USER-AGENT,HyperJar*
-  DOMAIN-SUFFIX,hyperjar.com
-  # > Lloyds
-  DOMAIN-SUFFIX,lloydsbank.co.uk
-  DOMAIN-SUFFIX,lloydsbankinggroup.d3.sc.omtrdc.net
-  # > Monzo
-  USER-AGENT,Monzo*
-  DOMAIN-SUFFIX,monzo.com
-  # > Rewire
-  # USER-AGENT,Rewire*
-  DOMAIN-SUFFIX,rewire.com
-  # > Others
-  DOMAIN-SUFFIX,adyen.com
-  DOMAIN-SUFFIX,bankofireland.com
-  DOMAIN-SUFFIX,bip.credit
-  DOMAIN-SUFFIX,bunq.com
-  DOMAIN-SUFFIX,cashplus.com
-  DOMAIN-SUFFIX,cashstaging.app
-  DOMAIN-SUFFIX,cashstaging.me
-  DOMAIN-SUFFIX,chase.co.uk
-  DOMAIN-SUFFIX,cmlink.com
-  DOMAIN-SUFFIX,contentful.com
-  DOMAIN-SUFFIX,eu-west-2.amazonaws.com
-  DOMAIN-SUFFIX,expat.hsbc.com
-  DOMAIN-SUFFIX,harrods.com
-  DOMAIN-SUFFIX,icanhazip.com
-  DOMAIN-SUFFIX,icard.com
-  DOMAIN-SUFFIX,natwest.com
-  DOMAIN-SUFFIX,natwestgroup.com
-  DOMAIN-SUFFIX,origincreditcard.co.uk
-  DOMAIN-SUFFIX,postoffice.co.uk
-  DOMAIN-SUFFIX,rbs.co.uk
-  DOMAIN-SUFFIX,santander.co.uk
-  DOMAIN-SUFFIX,starlingbank.com
-  DOMAIN-SUFFIX,tescobank.com
-  DOMAIN-SUFFIX,trustarc.com
-  DOMAIN-SUFFIX,tsb.co.uk
-  DOMAIN-SUFFIX,virginmoney.com
-  DOMAIN-SUFFIX,we-stats.com
+# UK
 
-  # (Mobile)
-  DOMAIN-SUFFIX,ee.co.uk
-  DOMAIN-SUFFIX,giffgaff.com
-  DOMAIN-SUFFIX,splkmobile.com
-  DOMAIN-SUFFIX,three.co.uk
-  DOMAIN-SUFFIX,vodafone.co.uk
+# (Credit card)
+# > Credit bureaus
+USER-AGENT,ClearScore*
+DOMAIN-SUFFIX,clearscore.com
+USER-AGENT,CreditKarmaInternational*
+DOMAIN-SUFFIX,creditkarma.co.uk
+DOMAIN-SUFFIX,equifax.co.uk
+DOMAIN-SUFFIX,experian.co.uk
+DOMAIN-SUFFIX,experian-agents.com
+DOMAIN-SUFFIX,moneysavingexpert.com
+DOMAIN-SUFFIX,moneysupermarket.com
+DOMAIN-SUFFIX,totallymoney.com
+DOMAIN-SUFFIX,transunionstatreport.co.uk
+# > Indentity
+USER-AGENT,Digidentity*
+DOMAIN-SUFFIX,digidentity.co.uk
+DOMAIN-SUFFIX,digidentity.com
+DOMAIN-SUFFIX,digidentity.uk
+DOMAIN-SUFFIX,digidentity.eu
+DOMAIN-SUFFIX,gov.uk
+DOMAIN-SUFFIX,co.uk
+# > Aqua
+USER-AGENT,NewDayAqua*
+DOMAIN-SUFFIX,aquacard.co.uk
+# > Barclay
+USER-AGENT,Barclaycard*
+DOMAIN-SUFFIX,apply-mobile.barclaycard
+DOMAIN-SUFFIX,barclays.co.uk
+DOMAIN-SUFFIX,barclays.mobi
+DOMAIN-SUFFIX,barclays.com
+DOMAIN-SUFFIX,eu.v2.we-stats.com
+DOMAIN-SUFFIX,home.barclays
+# > Capital One
+USER-AGENT,CapitalOne*
+DOMAIN-SUFFIX,callsign.com
+DOMAIN-SUFFIX,capitalone.co.uk
+DOMAIN-SUFFIX,medallia.com
+# > Halifax
+# USER-AGENT,Halifax*
+DOMAIN-SUFFIX,halifax.co.uk
+# > HSBC UK
+USER-AGENT,HSBC%20UK*
+DOMAIN-SUFFIX,hsbc.co.uk
+DOMAIN-SUFFIX,eum-appdynamics.com
+# > HyperJar
+# USER-AGENT,HyperJar*
+DOMAIN-SUFFIX,hyperjar.com
+# > Lloyds
+DOMAIN-SUFFIX,lloydsbank.co.uk
+DOMAIN-SUFFIX,lloydsbankinggroup.d3.sc.omtrdc.net
+# > Monzo
+USER-AGENT,Monzo*
+DOMAIN-SUFFIX,braze.eu
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,monzo-prod-user-images.imgix.net
+DOMAIN-SUFFIX,monzo.statuspage.io
+DOMAIN-SUFFIX,ws-eu.pusher.com
+# > Rewire
+# USER-AGENT,Rewire*
+DOMAIN-SUFFIX,rewire.com
+# > Santander
+DOMAIN-SUFFIX,cdn-ukwest.onetrust.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,santander.co.uk
+DOMAIN-SUFFIX,santanderuk.sc.omtrdc.net
+# > TSB
+DOMAIN-SUFFIX,apptentive.com
+DOMAIN-SUFFIX,dynatrace.com
+DOMAIN-SUFFIX,everesttech.net
+DOMAIN-SUFFIX,tsb.co.uk
+DOMAIN-SUFFIX,tsb.demdex.net
+DOMAIN-SUFFIX,tsbuk.d3.sc.omtrdc.net
+# > Others
+DOMAIN-SUFFIX,adyen.com
+DOMAIN-SUFFIX,bankofireland.com
+DOMAIN-SUFFIX,bip.credit
+DOMAIN-SUFFIX,bunq.com
+DOMAIN-SUFFIX,cashplus.com
+DOMAIN-SUFFIX,cashstaging.app
+DOMAIN-SUFFIX,cashstaging.me
+DOMAIN-SUFFIX,chase.co.uk
+DOMAIN-SUFFIX,cmlink.com
+DOMAIN-SUFFIX,contentful.com
+DOMAIN-SUFFIX,eu-west-2.amazonaws.com
+DOMAIN-SUFFIX,expat.hsbc.com
+DOMAIN-SUFFIX,harrods.com
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,icard.com
+DOMAIN-SUFFIX,natwest.com
+DOMAIN-SUFFIX,natwestgroup.com
+DOMAIN-SUFFIX,origincreditcard.co.uk
+DOMAIN-SUFFIX,paveapp.com
+DOMAIN-SUFFIX,portify-api-production.herokuapp.com
+DOMAIN-SUFFIX,postoffice.co.uk
+DOMAIN-SUFFIX,rbs.co.uk
+DOMAIN-SUFFIX,starlingbank.com
+DOMAIN-SUFFIX,tescobank.com
+DOMAIN-SUFFIX,trustarc.com
+DOMAIN-SUFFIX,virginmoney.com
 
-  # DE
+# (Mobile)
+DOMAIN-SUFFIX,ee.co.uk
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,splkmobile.com
+DOMAIN-SUFFIX,three.co.uk
+DOMAIN-SUFFIX,vodafone.co.uk
 
-  # (Credit card)
-  # > Schufa
-  DOMAIN-SUFFIX,schufa.de
-  DOMAIN-SUFFIX,meineschufa.de
-  # > Monese
-  # USER-AGENT,Monese*
-  DOMAIN-SUFFIX,monese.com
-  # > N26
-  USER-AGENT,N26*
-  DOMAIN-SUFFIX,n26.com
-  DOMAIN-SUFFIX,number26.de
-  DOMAIN-SUFFIX,tech26.de
-  # > Others
-  # USER-AGENT,ThinkMoney*
-  DOMAIN-SUFFIX,thinkmoney.co.uk
-  # USER-AGENT,Tomorrow*
-  DOMAIN-SUFFIX,tomorrow.one
-  # USER-AGENT,Vivid*
-  DOMAIN-SUFFIX,vivid.money
-  DOMAIN-SUFFIX,www.hsbc.de
+# DE
 
-  # (Mobile)
-  DOMAIN-SUFFIX,o2online.de
-  DOMAIN-SUFFIX,vodafone.de
+# (Credit card)
+# > Schufa
+DOMAIN-SUFFIX,schufa.de
+DOMAIN-SUFFIX,meineschufa.de
+# > Monese
+# USER-AGENT,Monese*
+DOMAIN-SUFFIX,monese.com
+# > N26
+USER-AGENT,N26*
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,number26.de
+DOMAIN-SUFFIX,tech26.de
+# > Others
+# USER-AGENT,ThinkMoney*
+DOMAIN-SUFFIX,thinkmoney.co.uk
+# USER-AGENT,Tomorrow*
+DOMAIN-SUFFIX,tomorrow.one
+# USER-AGENT,Vivid*
+DOMAIN-SUFFIX,vivid.money
+DOMAIN-SUFFIX,www.hsbc.de
 
-  # FR
+# (Mobile)
+DOMAIN-SUFFIX,o2online.de
+DOMAIN-SUFFIX,vodafone.de
 
-  # (Credit card)
-  # > HSBC
-  DOMAIN-SUFFIX,hsbc.fr
+# FR
 
-  # (Mobile)
-  DOMAIN-SUFFIX,free.fr
+# (Credit card)
+# > HSBC
+DOMAIN-SUFFIX,hsbc.fr
+
+# (Mobile)
+DOMAIN-SUFFIX,free.fr
