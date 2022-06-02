@@ -4,9 +4,9 @@ payload:
   
   # (Credit card)
   # > Credit bureaus
-  - USER-AGENT,ClearScore*
+  # USER-AGENT,ClearScore*
   - DOMAIN-SUFFIX,clearscore.com
-  - USER-AGENT,CreditKarmaInternational*
+  # USER-AGENT,CreditKarmaInternational*
   - DOMAIN-SUFFIX,creditkarma.co.uk
   - DOMAIN-SUFFIX,equifax.co.uk
   - DOMAIN-SUFFIX,experian.co.uk
@@ -16,7 +16,7 @@ payload:
   - DOMAIN-SUFFIX,totallymoney.com
   - DOMAIN-SUFFIX,transunionstatreport.co.uk
   # > Indentity
-  - USER-AGENT,Digidentity*
+  # USER-AGENT,Digidentity*
   - DOMAIN-SUFFIX,digidentity.co.uk
   - DOMAIN-SUFFIX,digidentity.com
   - DOMAIN-SUFFIX,digidentity.uk
@@ -24,10 +24,10 @@ payload:
   - DOMAIN-SUFFIX,gov.uk
   - DOMAIN-SUFFIX,co.uk
   # > Aqua
-  - USER-AGENT,NewDayAqua*
+  # USER-AGENT,NewDayAqua*
   - DOMAIN-SUFFIX,aquacard.co.uk
   # > Barclay
-  - USER-AGENT,Barclaycard*
+  # USER-AGENT,Barclaycard*
   - DOMAIN-SUFFIX,apply-mobile.barclaycard
   - DOMAIN-SUFFIX,barclays.co.uk
   - DOMAIN-SUFFIX,barclays.mobi
@@ -35,7 +35,7 @@ payload:
   - DOMAIN-SUFFIX,eu.v2.we-stats.com
   - DOMAIN-SUFFIX,home.barclays
   # > Capital One
-  - USER-AGENT,CapitalOne*
+  # USER-AGENT,CapitalOne*
   - DOMAIN-SUFFIX,callsign.com
   - DOMAIN-SUFFIX,capitalone.co.uk
   - DOMAIN-SUFFIX,medallia.com
@@ -43,7 +43,7 @@ payload:
   # USER-AGENT,Halifax*
   - DOMAIN-SUFFIX,halifax.co.uk
   # > HSBC UK
-  - USER-AGENT,HSBC%20UK*
+  # USER-AGENT,HSBC%20UK*
   - DOMAIN-SUFFIX,hsbc.co.uk
   - DOMAIN-SUFFIX,eum-appdynamics.com
   # > HyperJar
@@ -53,7 +53,7 @@ payload:
   - DOMAIN-SUFFIX,lloydsbank.co.uk
   - DOMAIN-SUFFIX,lloydsbankinggroup.d3.sc.omtrdc.net
   # > Monzo
-  - USER-AGENT,Monzo*
+  # USER-AGENT,Monzo*
   - DOMAIN-SUFFIX,braze.eu
   - DOMAIN-SUFFIX,monzo.com
   - DOMAIN-SUFFIX,monzo-prod-user-images.imgix.net
@@ -119,7 +119,7 @@ payload:
   # USER-AGENT,Monese*
   - DOMAIN-SUFFIX,monese.com
   # > N26
-  - USER-AGENT,N26*
+  # USER-AGENT,N26*
   - DOMAIN-SUFFIX,n26.com
   - DOMAIN-SUFFIX,number26.de
   - DOMAIN-SUFFIX,tech26.de
