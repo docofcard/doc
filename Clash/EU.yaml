@@ -9,8 +9,8 @@ payload:
   - USER-AGENT,CreditKarmaInternational*
   - DOMAIN-SUFFIX,creditkarma.co.uk
   - DOMAIN-SUFFIX,equifax.co.uk
-  - USER-AGENT,Experian*
   - DOMAIN-SUFFIX,experian.co.uk
+  - DOMAIN-SUFFIX,experian-agents.com
   - DOMAIN-SUFFIX,moneysavingexpert.com
   - DOMAIN-SUFFIX,moneysupermarket.com
   - DOMAIN-SUFFIX,totallymoney.com
@@ -32,16 +32,20 @@ payload:
   - DOMAIN-SUFFIX,barclays.co.uk
   - DOMAIN-SUFFIX,barclays.mobi
   - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,eu.v2.we-stats.com
   - DOMAIN-SUFFIX,home.barclays
   # > Capital One
   - USER-AGENT,CapitalOne*
+  - DOMAIN-SUFFIX,callsign.com
   - DOMAIN-SUFFIX,capitalone.co.uk
+  - DOMAIN-SUFFIX,medallia.com
   # > Halifax
   # USER-AGENT,Halifax*
   - DOMAIN-SUFFIX,halifax.co.uk
   # > HSBC UK
   - USER-AGENT,HSBC%20UK*
   - DOMAIN-SUFFIX,hsbc.co.uk
+  - DOMAIN-SUFFIX,eum-appdynamics.com
   # > HyperJar
   # USER-AGENT,HyperJar*
   - DOMAIN-SUFFIX,hyperjar.com
@@ -50,10 +54,26 @@ payload:
   - DOMAIN-SUFFIX,lloydsbankinggroup.d3.sc.omtrdc.net
   # > Monzo
   - USER-AGENT,Monzo*
+  - DOMAIN-SUFFIX,braze.eu
   - DOMAIN-SUFFIX,monzo.com
+  - DOMAIN-SUFFIX,monzo-prod-user-images.imgix.net
+  - DOMAIN-SUFFIX,monzo.statuspage.io
+  - DOMAIN-SUFFIX,ws-eu.pusher.com
   # > Rewire
   # USER-AGENT,Rewire*
   - DOMAIN-SUFFIX,rewire.com
+  # > Santander
+  - DOMAIN-SUFFIX,cdn-ukwest.onetrust.com
+  - DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,santander.co.uk
+  - DOMAIN-SUFFIX,santanderuk.sc.omtrdc.net
+  # > TSB
+  - DOMAIN-SUFFIX,apptentive.com
+  - DOMAIN-SUFFIX,dynatrace.com
+  - DOMAIN-SUFFIX,everesttech.net
+  - DOMAIN-SUFFIX,tsb.co.uk
+  - DOMAIN-SUFFIX,tsb.demdex.net
+  - DOMAIN-SUFFIX,tsbuk.d3.sc.omtrdc.net
   # > Others
   - DOMAIN-SUFFIX,adyen.com
   - DOMAIN-SUFFIX,bankofireland.com
@@ -73,15 +93,14 @@ payload:
   - DOMAIN-SUFFIX,natwest.com
   - DOMAIN-SUFFIX,natwestgroup.com
   - DOMAIN-SUFFIX,origincreditcard.co.uk
+  - DOMAIN-SUFFIX,paveapp.com
+  - DOMAIN-SUFFIX,portify-api-production.herokuapp.com
   - DOMAIN-SUFFIX,postoffice.co.uk
   - DOMAIN-SUFFIX,rbs.co.uk
-  - DOMAIN-SUFFIX,santander.co.uk
   - DOMAIN-SUFFIX,starlingbank.com
   - DOMAIN-SUFFIX,tescobank.com
   - DOMAIN-SUFFIX,trustarc.com
-  - DOMAIN-SUFFIX,tsb.co.uk
   - DOMAIN-SUFFIX,virginmoney.com
-  - DOMAIN-SUFFIX,we-stats.com
 
   # (Mobile)
   - DOMAIN-SUFFIX,ee.co.uk
