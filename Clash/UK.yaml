@@ -1,0 +1,90 @@
+payload:
+  # UK
+  
+  # (Credit card)
+  # > Credit bureaus
+  - USER-AGENT,ClearScore*
+  - DOMAIN-SUFFIX,clearscore.com
+  - USER-AGENT,CreditKarmaInternational*
+  - DOMAIN-SUFFIX,creditkarma.co.uk
+  - DOMAIN-SUFFIX,equifax.co.uk
+  - USER-AGENT,Experian*
+  - DOMAIN-SUFFIX,experian.co.uk
+  - DOMAIN-SUFFIX,moneysavingexpert.com
+  - DOMAIN-SUFFIX,moneysupermarket.com
+  - DOMAIN-SUFFIX,totallymoney.com
+  - DOMAIN-SUFFIX,transunionstatreport.co.uk
+  # > Indentity
+  - USER-AGENT,Digidentity*
+  - DOMAIN-SUFFIX,digidentity.co.uk
+  - DOMAIN-SUFFIX,digidentity.com
+  - DOMAIN-SUFFIX,digidentity.uk
+  - DOMAIN-SUFFIX,digidentity.eu
+  - DOMAIN-SUFFIX,gov.uk
+  - DOMAIN-SUFFIX,co.uk
+  # > Aqua
+  - USER-AGENT,NewDayAqua*
+  - DOMAIN-SUFFIX,aquacard.co.uk
+  # > Barclay
+  - USER-AGENT,Barclaycard*
+  - DOMAIN-SUFFIX,apply-mobile.barclaycard
+  - DOMAIN-SUFFIX,barclays.co.uk
+  - DOMAIN-SUFFIX,barclays.mobi
+  - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,home.barclays
+  # > Capital One
+  - USER-AGENT,CapitalOne*
+  - DOMAIN-SUFFIX,capitalone.co.uk
+  # > Halifax
+  # USER-AGENT,Halifax*
+  - DOMAIN-SUFFIX,halifax.co.uk
+  # > HSBC UK
+  - USER-AGENT,HSBC%20UK*
+  - DOMAIN-SUFFIX,hsbc.co.uk
+  # > HyperJar
+  # USER-AGENT,HyperJar*
+  - DOMAIN-SUFFIX,hyperjar.com
+  # > Lloyds
+  - DOMAIN-SUFFIX,lloydsbank.co.uk
+  - DOMAIN-SUFFIX,lloydsbankinggroup.d3.sc.omtrdc.net
+  # > Monzo
+  - USER-AGENT,Monzo*
+  - DOMAIN-SUFFIX,monzo.com
+  # > Rewire
+  # USER-AGENT,Rewire*
+  - DOMAIN-SUFFIX,rewire.com
+  # > Others
+  - DOMAIN-SUFFIX,adyen.com
+  - DOMAIN-SUFFIX,bankofireland.com
+  - DOMAIN-SUFFIX,bip.credit
+  - DOMAIN-SUFFIX,bunq.com
+  - DOMAIN-SUFFIX,cashplus.com
+  - DOMAIN-SUFFIX,cashstaging.app
+  - DOMAIN-SUFFIX,cashstaging.me
+  - DOMAIN-SUFFIX,chase.co.uk
+  - DOMAIN-SUFFIX,cmlink.com
+  - DOMAIN-SUFFIX,contentful.com
+  - DOMAIN-SUFFIX,eu-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,expat.hsbc.com
+  - DOMAIN-SUFFIX,harrods.com
+  - DOMAIN-SUFFIX,icanhazip.com
+  - DOMAIN-SUFFIX,icard.com
+  - DOMAIN-SUFFIX,natwest.com
+  - DOMAIN-SUFFIX,natwestgroup.com
+  - DOMAIN-SUFFIX,origincreditcard.co.uk
+  - DOMAIN-SUFFIX,postoffice.co.uk
+  - DOMAIN-SUFFIX,rbs.co.uk
+  - DOMAIN-SUFFIX,santander.co.uk
+  - DOMAIN-SUFFIX,starlingbank.com
+  - DOMAIN-SUFFIX,tescobank.com
+  - DOMAIN-SUFFIX,trustarc.com
+  - DOMAIN-SUFFIX,tsb.co.uk
+  - DOMAIN-SUFFIX,virginmoney.com
+  - DOMAIN-SUFFIX,we-stats.com
+  
+  # (Mobile)
+  - DOMAIN-SUFFIX,ee.co.uk
+  - DOMAIN-SUFFIX,giffgaff.com
+  - DOMAIN-SUFFIX,splkmobile.com
+  - DOMAIN-SUFFIX,three.co.uk
+  - DOMAIN-SUFFIX,vodafone.co.uk
