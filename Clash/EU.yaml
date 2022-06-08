@@ -135,8 +135,11 @@ payload:
   # (Mobile)
   - DOMAIN-SUFFIX,o2online.de
   - DOMAIN-SUFFIX,o9.de
+  - DOMAIN-SUFFIX,spatialbuzz.com
   - DOMAIN-SUFFIX,trbo.com
+  - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN-SUFFIX,vodafone.de
+  
   # FR
 
   # (Credit card)
