@@ -1,26 +1,30 @@
-  # DE
+# DE
 
-  # (Credit card)
-  # > Schufa
-  DOMAIN-SUFFIX,schufa.de
-  DOMAIN-SUFFIX,meineschufa.de
-  # > Monese
-  # USER-AGENT,Monese*
-  DOMAIN-SUFFIX,monese.com
-  # > N26
-  USER-AGENT,N26*
-  DOMAIN-SUFFIX,n26.com
-  DOMAIN-SUFFIX,number26.de
-  DOMAIN-SUFFIX,tech26.de
-  # > Others
-  # USER-AGENT,ThinkMoney*
-  DOMAIN-SUFFIX,thinkmoney.co.uk
-  # USER-AGENT,Tomorrow*
-  DOMAIN-SUFFIX,tomorrow.one
-  # USER-AGENT,Vivid*
-  DOMAIN-SUFFIX,vivid.money
-  DOMAIN-SUFFIX,www.hsbc.de
+# (Credit card)
+# > Schufa
+DOMAIN-SUFFIX,schufa.de
+DOMAIN-SUFFIX,meineschufa.de
+# > Monese
+# USER-AGENT,Monese*
+DOMAIN-SUFFIX,monese.com
+# > N26
+USER-AGENT,N26*
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,number26.de
+DOMAIN-SUFFIX,tech26.de
+# > Others
+# USER-AGENT,ThinkMoney*
+DOMAIN-SUFFIX,thinkmoney.co.uk
+# USER-AGENT,Tomorrow*
+DOMAIN-SUFFIX,tomorrow.one
+# USER-AGENT,Vivid*
+DOMAIN-SUFFIX,vivid.money
+DOMAIN-SUFFIX,www.hsbc.de
 
-  # (Mobile)
-  DOMAIN-SUFFIX,o2online.de
-  DOMAIN-SUFFIX,vodafone.de
+# (Mobile)
+DOMAIN-SUFFIX,o2online.de
+DOMAIN-SUFFIX,o9.de
+DOMAIN-SUFFIX,spatialbuzz.com
+DOMAIN-SUFFIX,trbo.com
+DOMAIN-SUFFIX,usercentrics.eu
+DOMAIN-SUFFIX,vodafone.de
