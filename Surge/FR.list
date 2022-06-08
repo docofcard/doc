@@ -1,8 +1,8 @@
-  # FR
+# FR
 
-  # (Credit card)
-  # > HSBC
-  DOMAIN-SUFFIX,hsbc.fr
+# (Credit card)
+# > HSBC
+DOMAIN-SUFFIX,hsbc.fr
 
-  # (Mobile)
-  DOMAIN-SUFFIX,free.fr
+# (Mobile)
+DOMAIN-SUFFIX,free.fr
