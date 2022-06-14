@@ -90,6 +90,8 @@ payload:
   - DOMAIN-SUFFIX,harrods.com
   - DOMAIN-SUFFIX,icanhazip.com
   - DOMAIN-SUFFIX,icard.com
+  - DOMAIN-SUFFIX,marupanels.com
+  - DOMAIN-SUFFIX,marusurvey.com
   - DOMAIN-SUFFIX,natwest.com
   - DOMAIN-SUFFIX,natwestgroup.com
   - DOMAIN-SUFFIX,origincreditcard.co.uk
