@@ -4,11 +4,11 @@ payload:
   
   # (Credit card)
   # > others
-  - USER-AGENT,*AlipayClientHK*
-  - USER-AGENT,*AlipayHK*
-  - USER-AGENT,EsenderIOS*
-  - USER-AGENT,LINE*
-  - USER-AGENT,*OctopusQuickBuild*
+  # USER-AGENT,*AlipayClientHK*
+  # USER-AGENT,*AlipayHK*
+  # USER-AGENT,EsenderIOS*
+  # USER-AGENT,LINE*
+  # USER-AGENT,*OctopusQuickBuild*
   - DOMAIN-SUFFIX,arcot.com
   - DOMAIN-SUFFIX,cmtelecare.com.hk
   - DOMAIN-SUFFIX,cncbinternational.com
