@@ -1,0 +1,35 @@
+payload:
+
+  # HK
+  
+  # (Credit card)
+  # > others
+  - USER-AGENT,*AlipayClientHK*
+  - USER-AGENT,*AlipayHK*
+  - USER-AGENT,EsenderIOS*
+  - USER-AGENT,LINE*
+  - USER-AGENT,*OctopusQuickBuild*
+  - DOMAIN-SUFFIX,arcot.com
+  - DOMAIN-SUFFIX,cmtelecare.com.hk
+  - DOMAIN-SUFFIX,cncbinternational.com
+  - DOMAIN-SUFFIX,gustomedialab.com
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,livibank.com
+  - DOMAIN-SUFFIX,octopus.com.hk
+  - DOMAIN-SUFFIX,octopuscards.com
+  - DOMAIN-SUFFIX,octopus-cards.com
+  - DOMAIN,onesignal.com
+  - DOMAIN-SUFFIX,tapngo.com.hk
+  - DOMAIN-SUFFIX,web.app
+
+  # (Mobile)
+  - DOMAIN-SUFFIX,1888.com.mo
+  - DOMAIN-SUFFIX,clubsim.com.hk
+  - DOMAIN-SUFFIX,ctexcel.com.hk
+  - DOMAIN-SUFFIX,cuniq.com
+  - DOMAIN-SUFFIX,hk.chinamobile.com
+  - DOMAIN-SUFFIX,three.com.hk
