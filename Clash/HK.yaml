@@ -22,7 +22,9 @@ payload:
   - DOMAIN-SUFFIX,octopus.com.hk
   - DOMAIN-SUFFIX,octopuscards.com
   - DOMAIN-SUFFIX,octopus-cards.com
-  - DOMAIN,onesignal.com
+  - DOMAIN-SUFFIX,onesignal.com
+  - DOMAIN-SUFFIX,sc.com
+  - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,tapngo.com.hk
   - DOMAIN-SUFFIX,web.app
 
@@ -33,3 +35,8 @@ payload:
   - DOMAIN-SUFFIX,cuniq.com
   - DOMAIN-SUFFIX,hk.chinamobile.com
   - DOMAIN-SUFFIX,three.com.hk
+
+  # (Others)
+  - DOMAIN-SUFFIX,chicos.com
+  - DOMAIN-SUFFIX,guess.eu
+  - DOMAIN-SUFFIX,carecode.guess.eu
