@@ -1,0 +1,12 @@
+payload:
+
+  # Streaming，Download
+  
+  # (Streaming)
+  # > Netflix
+  
+  # (Download)
+  # > Download
+
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,wetransfer.com
