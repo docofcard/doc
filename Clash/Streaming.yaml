@@ -10,3 +10,4 @@ payload:
 
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,wetransfer.com
+  - DOMAIN-SUFFIX,dropboxstatic.com
