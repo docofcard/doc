@@ -31,7 +31,10 @@ payload:
   - DOMAIN-SUFFIX,apply-mobile.barclaycard
   - DOMAIN-SUFFIX,barclays.co.uk
   - DOMAIN-SUFFIX,barclays.mobi
+  - DOMAIN-SUFFIX,barclays.mobi(null)
   - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,barclaysuk.sc.omtrdc.net
+  - DOMAIN-SUFFIX,bclays-ads.aimatch.com
   - DOMAIN-SUFFIX,eu.v2.we-stats.com
   - DOMAIN-SUFFIX,home.barclays
   # > Capital One
