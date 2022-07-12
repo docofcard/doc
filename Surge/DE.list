@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,meineschufa.de
 DOMAIN-SUFFIX,monese.com
 # > N26
 USER-AGENT,N26*
+DOMAIN-SUFFIX,device.marketingcloudapis.com
 DOMAIN-SUFFIX,n26.com
 DOMAIN-SUFFIX,number26.de
 DOMAIN-SUFFIX,tech26.de
