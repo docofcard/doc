@@ -5,10 +5,14 @@
 USER-AGENT,ClearScore*
 DOMAIN-SUFFIX,clearscore.com
 USER-AGENT,CreditKarmaInternational*
+DOMAIN-SUFFIX,bam-cell.nr-data.net
+DOMAIN-SUFFIX,ck-uk-offers.imgix.net
 DOMAIN-SUFFIX,creditkarma.co.uk
+DOMAIN-SUFFIX,creditkarmacdn-a.akamaihd.net
 DOMAIN-SUFFIX,equifax.co.uk
 DOMAIN-SUFFIX,experian.co.uk
 DOMAIN-SUFFIX,experian-agents.com
+DOMAIN-SUFFIX,imgix.net
 DOMAIN-SUFFIX,moneysavingexpert.com
 DOMAIN-SUFFIX,moneysupermarket.com
 DOMAIN-SUFFIX,totallymoney.com
@@ -95,6 +99,7 @@ DOMAIN-SUFFIX,marupanels.com
 DOMAIN-SUFFIX,marusurvey.com
 DOMAIN-SUFFIX,natwest.com
 DOMAIN-SUFFIX,natwestgroup.com
+DOMAIN-SUFFIX,nutmeg.com
 DOMAIN-SUFFIX,origincreditcard.co.uk
 DOMAIN-SUFFIX,paveapp.com
 DOMAIN-SUFFIX,portify-api-production.herokuapp.com
