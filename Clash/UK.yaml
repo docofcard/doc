@@ -6,8 +6,11 @@ payload:
   # > Credit bureaus
   - USER-AGENT,ClearScore*
   - DOMAIN-SUFFIX,clearscore.com
-  - USER-AGENT,CreditKarmaInternational*
+  # USER-AGENT,CreditKarmaInternational*
+  - DOMAIN-SUFFIX,bam-cell.nr-data.net
+  - DOMAIN-SUFFIX,ck-uk-offers.imgix.net
   - DOMAIN-SUFFIX,creditkarma.co.uk
+  - DOMAIN-SUFFIX,creditkarmacdn-a.akamaihd.net
   - DOMAIN-SUFFIX,equifax.co.uk
   - USER-AGENT,Experian*
   - DOMAIN-SUFFIX,experian.co.uk
@@ -78,6 +81,7 @@ payload:
   - DOMAIN-SUFFIX,marusurvey.com
   - DOMAIN-SUFFIX,natwest.com
   - DOMAIN-SUFFIX,natwestgroup.com
+  - DOMAIN-SUFFIX,nutmeg.com
   - DOMAIN-SUFFIX,origincreditcard.co.uk
   - DOMAIN-SUFFIX,postoffice.co.uk
   - DOMAIN-SUFFIX,rbs.co.uk
